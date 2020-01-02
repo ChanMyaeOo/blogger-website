@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Custom stylesheet -->
-    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <!-- Owl carousel theme -->
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <!-- Fontawesome link -->
     <link rel="stylesheet" href="./css/all.css">
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
     <title>Blogger</title>
 </head>
 <body>
@@ -41,8 +46,74 @@
         </nav>
     <!--x-- Navbar section --x-->
 
+    <!----------- Main section ---------->
+        <main>
+            <!--------------- Title section --------->
+            <section class="title-section">
+                <div class="title-wrap">
+                    <h3>Travel & Tours</h3>
+                    <h1>Amazing Place on Planet</h1>
+                    <button class="btn">Explore</button>
+                </div>
+            </section>
+            <!-------x-------- Title section -----x---->
+
+            <!--------------------- Blog carousel section -------------->
+            <section>
+                <div class="blog">
+                    <div class="container">
+                        <div class="owl-carousel owl-theme blog-post">
+                            <div class="blog-content">
+                                <img src="./assets/Blog-post/post-1.jpg" alt="Post-1">
+                                <div class="blog-title">
+                                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, adipisci.</h3>
+                                    <button class="btn btn-blog">Fashion</button>
+                                    <span>2 Minutes Read</span>
+                                </div>
+                            </div>
+
+                            <div class="blog-content">
+                                <img src="./assets/Blog-post/post-2.jpg" alt="Post-2">
+                                <div class="blog-title">
+                                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, adipisci.</h3>
+                                    <button class="btn btn-blog">Fashion</button>
+                                    <span>2 Minutes Read</span>
+                                </div>
+                            </div>
+
+                            <div class="blog-content">
+                                <img src="./assets/Blog-post/post-3.jpg" alt="Post-3">
+                                <div class="blog-title">
+                                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, adipisci.</h3>
+                                    <button class="btn btn-blog">Fashion</button>
+                                    <span>2 Minutes Read</span>
+                                </div>
+                            </div>
+
+                            <div class="blog-content">
+                                <img src="./assets/Blog-post/post-5.png" alt="Post-4">
+                                <div class="blog-title">
+                                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, adipisci.</h3>
+                                    <button class="btn btn-blog">Fashion</button>
+                                    <span>2 Minutes Read</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-navigation">
+                            <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                            <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!----------x----------- Blog carousel section -------x------->
+        </main>
+    <!-----x------ Main section -----x----->
+
     <!-- jquery -->
     <script src="./js/jquery-3.4.1.min.js"></script>
+    <!-- Owl carousel js -->
+    <script src="./js/owl.carousel.min.js"></script>
     <!-- custom javascript -->
     <script src="./js/main.js"></script>
 </body>
