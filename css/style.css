@@ -1,0 +1,116 @@
+@import url('./fonts.css');
+:root{
+
+    /* google fonts */
+    --Abel: Abel, sans-serif;
+
+    /* theme color */
+    --text-gray: #3f4954;
+    --midnight: #104f55;
+    --text-light : #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    font-family: var(--Abel);
+}
+/*------------ Global stylesheet -----------*/
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*------x------ Global stylesheet ------x-----*/
+
+/*----------- Navbar section -----------*/
+.navbar{
+    background: var(--white);
+    height: 0rem; 
+    min-height: 5vh;
+    overflow: hidden;
+    padding: 1rem;
+    transition: height 1s ease-in-out;
+}
+.navbar .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.toogle-collapse .toggle-icon i{
+    position: fixed;
+    top: 1.5rem;
+    right: 1.2rem;
+    font-size: 1.4rem;
+    color: var(--text-gray);
+}
+.toogle-collapse .toggle-icon i{
+    display: none;
+}
+.collapse{
+    height: 60vh;
+}
+.nav-items{
+    display: flex;
+}
+.navbar .logo{
+    padding-top: 0.2rem;
+    padding-bottom: 2rem;
+}
+.navbar .logo a{
+    color: var(--text-gray);
+    font-size: 1.3rem;
+}
+.nav-items li{
+    padding: 0 1.5rem;
+}
+.nav-items li::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: var(--text-light);
+    display: block;
+    transition: width .3s;
+}
+.nav-items li:hover::after{
+    width: 100%;
+}
+.nav-items li a{
+    color: var(--text-gray);
+    font-size: 1.2rem;
+}
+
+.social-icons{
+    padding: 0.4rem 0;
+}
+.social-icons a{
+    color: var(--text-gray);
+}
+.social-icons a:hover{
+    color: var(--text-light);
+}
+.social-icons i{
+    padding: 0 0.3rem;
+}
+
+
+/*-----x------ Navbar section -----x------*/
+
+/*------------ Media queries ---------------*/
+@media(max-width: 800px){
+  .navbar .nav-menu, .nav-items{
+      flex-direction: column;
+  }
+  .toogle-collapse .toggle-icon i{
+      display: initial;
+  }
+  .nav-items li{
+      padding-bottom: 1.5rem;
+  }
+}
+/*------x------ Media queries -------x--------*/
