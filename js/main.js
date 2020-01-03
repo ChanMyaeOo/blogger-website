@@ -1,3 +1,8 @@
+const responsive = {
+    768: {
+        items: 2
+    }
+}
 $(document).ready(function(){
     $nav = $(".navbar");
     $toggleCollapse = $(".toogle-collapse");
@@ -14,7 +19,8 @@ $(document).ready(function(){
         setTimeout: 3000,
         dots: false,
         nav: true,
-        navText: [$(".owl-navigation .owl-nav-prev"), $(".owl-navigation .owl-nav-next")]
+        navText: [$(".owl-navigation .owl-nav-prev"), $(".owl-navigation .owl-nav-next")],
+        responsive: responsive
     });
 
     //Scroll up

@@ -245,6 +245,9 @@ main .post-container{
     position: relative;
     width: 100%;
 }
+.blog-post-content .blog-img-wrap .post-img img{
+    width: 100%;
+}
 .blog-img-wrap .post-date{
     background: var(--sky);
     position: absolute;
@@ -362,7 +365,7 @@ main .post-container{
     margin-top: 6rem;
 }
 .newsletter-form input[type="email"]{
-    height: 2.5rem;
+    height: 2rem;
     display: block;
     margin-top: 1.5rem;
     margin-bottom: .8rem;
@@ -507,6 +510,38 @@ main .post-container{
 /*-----x----- Footer section -----x-----*/
 
 /*------------ Media queries ---------------*/
+/* Media query for 768px */
+@media(max-width: 768px){
+    .blog-img-wrap .post-date{
+        left: 0;
+        bottom: 0;
+        border-radius: 0;
+    }
+    .blog-post-aside .post-aside-date{
+        display: none;
+    }
+    .blog-post-aside{
+        padding-right: 2rem;
+    }
+    .newsletter-form input[type="email"]{
+        margin-left: .5rem;
+        width: 70%;
+    }
+    .newsletter-btn{
+        margin-left: .5rem;
+        width: 73%;
+    }
+    .footer-section .footer-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-section .instagram{
+        padding: 3rem;
+        padding-top: 0;
+    }
+    .footer-section .follow{
+        padding-left: 0;
+    }
+}
 @media(max-width: 650px){
 
   /*----- Navbar section -----*/
