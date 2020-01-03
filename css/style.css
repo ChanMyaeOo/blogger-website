@@ -143,6 +143,7 @@ p{
 main .title-section{
     background: url(../assets/Background-image.png);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 110vh;
     width: 100%;
 }
