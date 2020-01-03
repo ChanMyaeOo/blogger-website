@@ -222,6 +222,146 @@ section .container .owl-nav{
     overflow: hidden;
 }
 /*-------x-------- Blog carousel section ------x-------*/
+
+/*------------- Blog post section --------------*/
+main .post-container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.blog-post-content{
+    margin: 3rem;
+}
+.blog-post-content .blog-img-wrap{
+    position: relative;
+    width: 100%;
+}
+.blog-img-wrap .post-date{
+    background: var(--sky);
+    position: absolute;
+    bottom: 0;
+    left: 17vw;
+    height: 1.5rem;
+    padding: .5rem 1rem .3rem 1rem;
+    border-radius: 1.5rem;
+}
+.blog-post-title{
+    margin-top: .5rem;
+    padding-right: 3rem;
+    margin-bottom: 3rem;
+}
+.blog-post-title h2{
+    margin-bottom: .5rem;
+}
+.blog-post-title p{
+    line-height: 1.5;
+    font-family: var(--Livvic);
+    margin-bottom: 1rem;
+}
+.blog-btn{
+    border-radius: 0 !important;
+    color: #000;
+    font-size: 1rem;
+}
+.fa-arrow-right{
+    font-size: 11px;
+    padding-left: .2rem;
+}
+/*------x------- Blog post section -------x-------*/
+
+/*------------ Post sidebar section ----------------*/
+
+/* Sidebar category */
+.post-category{
+    margin-top: 2rem;
+}
+.post-category h2{
+    margin-bottom: 1rem;
+}
+.post-category ul a li{
+    display: flex;
+    justify-content: space-between;
+    color: var(--bg-color);
+}
+.post-category ul li{
+    background: var(--sky);
+    padding: .5rem 1rem;
+    margin: .4rem;
+    width: 60%;
+    border-radius: 2rem;
+}
+
+/* Sidebar popular posts */
+.blog-post-aside{
+    margin-top: 5rem;
+    padding-right: 5rem;
+}
+.blog-post-aside h2{
+    margin-bottom: 1.5rem;
+}
+.blog-aside-img-wrap{
+    width: 25vw;
+    position: relative;
+}
+.blog-aside-img-wrap img{
+    width: 100%;
+    height: auto;
+}
+.post-aside-date{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: var(--white);
+    padding: .4rem;
+}
+.blog-aside-post-title h2{
+    font-size: 1.2rem;
+    margin-top: .5rem;
+}
+/* Sidebar newsletter */
+.newsletter{
+    margin-top: 6rem;
+}
+.newsletter-form input[type="email"]{
+    height: 2.5rem;
+    display: block;
+    margin-top: 1.5rem;
+    margin-bottom: .8rem;
+    width: 60%;
+    margin-left: 2rem;
+}
+.newsletter-btn{
+    border-radius: 0 !important;
+    width: 61%;
+    color: var(--text-gray);
+    font-size: 1rem;
+    padding: .8rem !important;
+    margin-left: 2rem;
+}
+
+/* Popular tags section */
+.populat-tags-section{
+    margin-top: 5rem;
+}
+.populat-tags-section h2{
+    margin-bottom: 1.5rem;
+}
+.popular-tags{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    width: 60%;
+}
+.popular-tags a{
+    background: var(--sky);
+    display: inline-block;
+    height: 2rem;
+    padding: .5rem .5rem 0 .5rem;
+    border-radius: 1.3rem;
+    margin-left: .3rem;
+    margin-bottom: .3rem;
+    color: var(--bg-color);
+}
+/*-----x------- Post sidebar section -------x---------*/
 /*------x--------- Main section --------x---------*/
 
 /*------------ Media queries ---------------*/
