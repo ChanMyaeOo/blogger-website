@@ -324,6 +324,7 @@ main .post-container{
     display: flex;
     justify-content: space-between;
     color: var(--bg-color);
+    text-align: center;
 }
 .post-category ul li{
     background: var(--sky);
@@ -331,6 +332,7 @@ main .post-container{
     margin: .4rem;
     width: 60%;
     border-radius: 2rem;
+    text-align: center;
 }
 
 /* Sidebar popular posts */
@@ -493,6 +495,8 @@ main .post-container{
     text-align: center;
     color: var(--white);
     font-family: var(--Josefin);
+    padding: 0 1.5rem;
+    line-height: 1.5;
 }
 .scroll-up{
     position: absolute;
@@ -542,6 +546,70 @@ main .post-container{
         padding-left: 0;
     }
 }
+
+/* Media query for 425px */
+@media(max-width: 425px){
+    main .post-container{
+        grid-template-columns: 1fr;
+    }
+    .post-sidebar{
+        text-align: center;
+    }
+    .post-category ul{
+        padding-left: 5rem;
+    }
+    .blog-aside-img-wrap{
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .blog-post-aside{
+        padding-right: 0;
+        margin-top: 2rem;
+    }
+    .blog-post-aside h2{
+        padding: 0 1.5rem;
+    }
+    .newsletter-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .newsletter-btn{
+        width: 72%;
+    }
+    .newsletter{
+        margin-top: 2rem;
+    }
+    .populat-tags-section{
+        margin-top: 2rem;
+    }
+    .popular-tags{
+        width: 65%;
+        margin-left: 4rem;
+    }
+    .footer-section .footer-container{
+        grid-template-columns: 1fr;
+    }
+    .footer-section .newsletter-wrapper{
+        padding-left: 3rem;
+        padding-top: 0rem;
+    }
+    .footer-section .follow{
+        padding: 0 0 0 3rem;
+    }
+    .scroll-up{
+        top: 80%;
+    }
+}
+
+/* Media query for 320px */
+@media(max-width: 320px){
+    .post-date{
+        display: none;
+    }
+}
+
 @media(max-width: 650px){
 
   /*----- Navbar section -----*/
@@ -560,6 +628,13 @@ main .post-container{
       padding-bottom: 1.5rem;
   }
   /*--x--- Navbar section ---x--*/
+
+  .post-date{
+    display: none;
+  }
+  .title-wrap h1{
+      padding: 1.5rem;
+  }
 }
 /*------x------ Media queries -------x--------*/
 
