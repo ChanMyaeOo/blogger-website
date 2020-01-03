@@ -270,6 +270,36 @@ main .post-container{
     font-size: 11px;
     padding-left: .2rem;
 }
+
+/* Pagination section */
+.pagination-section{
+    display: flex;
+    justify-content: center;
+}
+.pagination{
+    display: flex;
+    justify-content: space-around;
+    width: 12rem;
+}
+.pagination div{
+    background: var(--text-gray);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    cursor: pointer;
+}
+.pagination i{
+    font-size: 1.7rem;
+    color: var(--text-gray);
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
 /*------x------- Blog post section -------x-------*/
 
 /*------------ Post sidebar section ----------------*/
