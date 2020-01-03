@@ -16,4 +16,11 @@ $(document).ready(function(){
         nav: true,
         navText: [$(".owl-navigation .owl-nav-prev"), $(".owl-navigation .owl-nav-next")]
     });
+
+    //Scroll up
+    $('.scroll-up i').click(function(){
+        $('html,body').animate({
+            scrollTop: 0
+        },1000)
+    })
 })

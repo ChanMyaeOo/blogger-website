@@ -5,6 +5,7 @@
     --Abel: Abel, sans-serif;
     --Lexend: --Lexend, sans-serif;
     --Livvic: --Livvic, sans-serif;
+    --Josefin: --Josefin, sans-serif;
 
     /* theme color */
     --text-gray: #3f4954;
@@ -50,6 +51,10 @@ button.btn{
     background: var(--sky);
     cursor: pointer;
     font-family: var(--Livvic);
+}
+
+p{
+    font-family: var(--Abel);
 }
 
 /*------x------ Global stylesheet ------x-----*/
@@ -362,10 +367,13 @@ main .post-container{
     margin-bottom: .8rem;
     width: 60%;
     margin-left: 2rem;
+    padding: .1rem;
+    font-family: var(--Abel);
+    font-size: 1rem;
 }
 .newsletter-btn{
     border-radius: 0 !important;
-    width: 61%;
+    width: 62%;
     color: var(--text-gray);
     font-size: 1rem;
     padding: .8rem !important;
@@ -398,6 +406,105 @@ main .post-container{
 /*-----x------- Post sidebar section -------x---------*/
 /*------x--------- Main section --------x---------*/
 
+/*---------- Footer section ----------*/
+.footer-section{
+    background: var(--bg-color);
+    width: 100%;
+    margin-top: 4rem;
+    position: relative;
+}
+.footer-section .footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 2rem;
+}
+.footer-section .footer-container h2{
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+.footer-section .footer-container p{
+    color: var(--white);
+}
+.footer-container .about-us{
+    padding: 3rem;
+}
+.footer-container .about-us p{
+    line-height: 1.5;
+}
+.footer-container .newsletter-wrapper{
+    padding-top: 3rem;
+}
+.newsletter-wrapper .form-wrap{
+    margin-top: 1rem;
+}
+.newsletter-wrapper input{
+    background: #000;
+    border: none;
+    height: 1.4rem;
+    color: var(--white);
+    padding: .5rem;
+    width: 60%;
+}
+.newsletter-wrapper .form-wrap span{
+    background: var(--sky);
+    padding: .6rem .7rem;
+    cursor: pointer;
+}
+.footer-section .instagram{
+    padding: .5rem;
+    margin-top: 2.5rem;
+}
+.footer-section .instagram .instagram-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .8rem;
+    margin-top: 1.5rem;
+}
+.footer-section .instagram .instagram-img img{
+    width: 100%;
+}
+.footer-section .follow{
+    margin-top: 3rem;
+    padding-left: 2.5rem;
+}
+.footer-section .follow .footer-social{
+    margin-top: .6rem;
+    overflow: hidden;
+}
+.footer-section .follow .footer-social a{
+    padding: .2rem;
+    color: var(--white);
+    overflow: hidden;
+}
+.footer-section .follow .footer-social a:hover{
+    color: var(--text-gray);
+}
+.copyright{
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright p{
+    text-align: center;
+    color: var(--white);
+    font-family: var(--Josefin);
+}
+.scroll-up{
+    position: absolute;
+    right: 2rem;
+    top: 70%;
+}
+.scroll-up i{
+    color: var(--midnight);
+}
+.scroll-up i:hover{
+    color: var(--white);
+    cursor: pointer;
+}
+
+/*-----x----- Footer section -----x-----*/
+
 /*------------ Media queries ---------------*/
 @media(max-width: 650px){
 
@@ -419,3 +526,4 @@ main .post-container{
   /*--x--- Navbar section ---x--*/
 }
 /*------x------ Media queries -------x--------*/
+
