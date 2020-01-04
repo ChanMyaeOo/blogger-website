@@ -39,3 +39,5 @@ $(document).ready(function(){
         },1000)
     })
 })
+
+AOS.init();

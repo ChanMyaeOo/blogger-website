@@ -150,6 +150,7 @@ main .title-section{
 .title-section .title-wrap{
     text-align: center;
     padding-top: 10rem;
+    overflow: hidden;
 }
 .title-section .title-wrap h3{
     color: var(--white);
@@ -398,6 +399,7 @@ main .post-container{
     flex-wrap: wrap;
     margin-left: 2rem;
     width: 60%;
+    overflow: hidden;
 }
 .popular-tags a{
     background: var(--sky);
