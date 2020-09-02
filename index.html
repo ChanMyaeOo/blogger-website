@@ -1,414 +1,566 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- Owl carousel -->
-    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
     <!-- Owl carousel theme -->
-    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
     <!-- Fontawesome link -->
-    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/all.css" />
     <!-- AOS stylesheet -->
-    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/aos.css" />
     <!-- Custom stylesheet -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Blogger</title>
-</head>
-<body>
+  </head>
+  <body>
     <!---- Navbar section ---->
-        <nav class="navbar">
-            <div class="nav-menu">
-                <div class="logo">
-                    <a href="#">Blogger</a>
-                </div>
-                <div class="toogle-collapse">
-                    <div class="toggle-icon">
-                        <i class="fas fa-bars"></i>
-                    </div>
-                </div>
-                <div>
-                    <ul class="nav-items">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Category</a></li>
-                        <li><a href="#">Archive</a></li>
-                        <li><a href="#">Pages</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-snapchat"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                </div>
-            </div>
-        </nav>
+    <nav class="navbar">
+      <div class="nav-menu">
+        <div class="logo">
+          <a href="#">Blogger</a>
+        </div>
+        <div class="toogle-collapse">
+          <div class="toggle-icon">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+        <div>
+          <ul class="nav-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Archive</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-snapchat"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </nav>
     <!--x-- Navbar section --x-->
 
     <!----------- Main section ---------->
-        <main>
-            <!--------------- Title section --------->
-            <section class="title-section">
-                <div class="title-wrap">
-                    <h3 data-aos="fade-up" data-aos-duration="1000">Travel & Tours</h3>
-                    <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Amazing Places on Planet</h1>
-                    <button class="btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Explore</button>
+    <main>
+      <!--------------- Title section --------->
+      <section class="title-section">
+        <div class="title-wrap">
+          <h3 data-aos="fade-up" data-aos-duration="1000">Travel & Tours</h3>
+          <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            Amazing Places on Planet
+          </h1>
+          <button
+            class="btn"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            Explore
+          </button>
+        </div>
+      </section>
+      <!-------x-------- Title section -----x---->
+
+      <!--------------------- Blog carousel section -------------->
+      <section>
+        <div class="blog">
+          <div class="container">
+            <div class="owl-carousel owl-theme blog-post">
+              <div
+                class="blog-content"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              >
+                <img src="./assets/Blog-post/post-1.jpg" alt="Post-1" />
+                <div class="blog-title">
+                  <h3>20 Seafood you need to try before you die.</h3>
+                  <button class="btn btn-blog">Read More</button>
+                  <span>6 Minutes Read</span>
                 </div>
-            </section>
-            <!-------x-------- Title section -----x---->
+              </div>
 
-            <!--------------------- Blog carousel section -------------->
-            <section>
-                <div class="blog">
-                    <div class="container">
-                        <div class="owl-carousel owl-theme blog-post">
-                            <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
-                                <img src="./assets/Blog-post/post-1.jpg" alt="Post-1">
-                                <div class="blog-title">
-                                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, adipisci.</h3>
-                                    <button class="btn btn-blog">Fashion</button>
-                                    <span>2 Minutes Read</span>
-                                </div>
-                            </div>
-
-                            <div class="blog-content">
-                                <img src="./assets/Blog-post/post-2.jpg" alt="Post-2">
-                                <div class="blog-title">
-                                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, adipisci.</h3>
-                                    <button class="btn btn-blog">Fashion</button>
-                                    <span>2 Minutes Read</span>
-                                </div>
-                            </div>
-
-                            <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
-                                <img src="./assets/Blog-post/post-3.jpg" alt="Post-3">
-                                <div class="blog-title">
-                                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, adipisci.</h3>
-                                    <button class="btn btn-blog">Fashion</button>
-                                    <span>2 Minutes Read</span>
-                                </div>
-                            </div>
-
-                            <div class="blog-content">
-                                <img src="./assets/Blog-post/post-5.png" alt="Post-4">
-                                <div class="blog-title">
-                                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, adipisci.</h3>
-                                    <button class="btn btn-blog">Fashion</button>
-                                    <span>2 Minutes Read</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-navigation">
-                            <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
-                            <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
-                        </div>
-                    </div>
+              <div class="blog-content">
+                <img src="./assets/Blog-post/post-2.jpg" alt="Post-2" />
+                <div class="blog-title">
+                  <h3>Happy Workspace Leadership Programme</h3>
+                  <button class="btn btn-blog">Read More</button>
+                  <span>2 Minutes Read</span>
                 </div>
-            </section>
-            <!----------x----------- Blog carousel section -------x------->
+              </div>
 
-            <!--------------- Blog post section ---------------->
-            <section class="blog-post-wrap">
-                <div class="post-container">
-                    <!----------- Main blog post content ------------->
-                    <div class="blog-post-content-wrap">
-                        <div class="blog-post-content">
-                            <div class="blog-img-wrap" data-aos="zoom-in" data-aos-delay="200"  data-aos-duration="1000">
-                                    <div class="post-img">
-                                        <img src="./assets/Blog-post/blog1.png" alt="">
-                                    </div>
-                                    <div class="post-date">
-                                        <span><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span>
-                                        <span><i class="far fa-calendar-alt"></i>&nbsp;January, 20 2019</span>
-                                        <span>&nbsp;&nbsp;2 Comments</span>
-                                    </div>  
-                            </div>
-                            <div class="blog-post-title">
-                                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Earum in illo veritatis accusamus?</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Earum assumenda doloremque quod ipsum ratione 
-                                    laboriosam aliquid dicta maiores culpa neque consectetur debitis, ad aliquam odio.</p>
-                                <button class="btn blog-btn">Read more <span><i class="fas fa-arrow-right"></i></span></button>
-                            </div>
-                            <hr>
-                        </div>
-
-                        <div class="blog-post-content">
-                            <div class="blog-img-wrap" data-aos="zoom-in" data-aos-delay="200"  data-aos-duration="1000">
-                                    <div class="post-img">
-                                        <img src="./assets/Blog-post/blog2.png" alt="">
-                                    </div>
-                                    <div class="post-date">
-                                        <span><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span>
-                                        <span><i class="far fa-calendar-alt"></i>&nbsp;January, 22 2019</span>
-                                        <span>&nbsp;&nbsp;3 Comments</span>
-                                    </div>  
-                            </div>
-                            <div class="blog-post-title">
-                                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Earum in illo veritatis accusamus?</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Earum assumenda doloremque quod ipsum ratione 
-                                    laboriosam aliquid dicta maiores culpa neque consectetur debitis, ad aliquam odio.</p>
-                                <button class="btn blog-btn">Read more <span><i class="fas fa-arrow-right"></i></span></button>
-                            </div>
-                            <hr>
-                        </div>
-
-                        <div class="blog-post-content">
-                            <div class="blog-img-wrap" data-aos="zoom-in" data-aos-delay="200"  data-aos-duration="1000">
-                                    <div class="post-img">
-                                        <img src="./assets/Blog-post/blog3.png" alt="">
-                                    </div>
-                                    <div class="post-date">
-                                        <span><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span>
-                                        <span><i class="far fa-calendar-alt"></i>&nbsp;January, 24 2019</span>
-                                        <span>&nbsp;&nbsp;5 Comments</span>
-                                    </div>  
-                            </div>
-                            <div class="blog-post-title">
-                                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Earum in illo veritatis accusamus?</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Earum assumenda doloremque quod ipsum ratione 
-                                    laboriosam aliquid dicta maiores culpa neque consectetur debitis, ad aliquam odio.</p>
-                                <button class="btn blog-btn">Read more <span><i class="fas fa-arrow-right"></i></span></button>
-                            </div>
-                            <hr>
-                        </div>
-
-                        <div class="blog-post-content">
-                            <div class="blog-img-wrap" data-aos="zoom-in" data-aos-delay="200"  data-aos-duration="1000">
-                                    <div class="post-img">
-                                        <img src="./assets/Blog-post/blog4.png" alt="">
-                                    </div>
-                                    <div class="post-date">
-                                        <span><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span>
-                                        <span><i class="far fa-calendar-alt"></i>&nbsp;January, 26 2019</span>
-                                        <span>&nbsp;&nbsp;1 Comments</span>
-                                    </div>  
-                            </div>
-                            <div class="blog-post-title">
-                                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Earum in illo veritatis accusamus?</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Earum assumenda doloremque quod ipsum ratione 
-                                    laboriosam aliquid dicta maiores culpa neque consectetur debitis, ad aliquam odio.</p>
-                                <button class="btn blog-btn">Read more <span><i class="fas fa-arrow-right"></i></span></button>
-                            </div>
-                        </div>
-
-                        <!-- Pagintation section -->
-                        <section class="pagination-section">
-                            <div class="pagination">
-                                    <i class="fas fa-angle-left"></i>
-                                    <div>1</div>
-                                    <div>2</div>
-                                    <div>3</div>
-                                    <i class="fas fa-angle-right"></i>
-                            </div>
-                        </section>
-                    </div>
-                    <!-----x------ Main blog post content ----x--------->
-
-                    <!----------- Post sidebar section ----------->
-                    <aside class="post-sidebar">
-                        <!-- Category -->
-                        <div class="post-category">
-                            <h2>Category</h2>
-                            <ul>
-                                <a href="#">
-                                    <li data-aos="fade-left" data-aos-delay="200"><span>Technology</span><span>(5)</span></li>
-                                </a>
-
-                                <a href="#">
-                                    <li data-aos="fade-left" data-aos-delay="300"><span>Business</span><span>(3)</span></li>
-                                </a>
-
-                                <a href="#">
-                                    <li data-aos="fade-left" data-aos-delay="400"><span>Lifestyle</span><span>(2)</span></li>
-                                </a>
-
-                                <a href="#">
-                                    <li data-aos="fade-left" data-aos-delay="500"><span>Books</span><span>(6)</span></li>
-                                </a>
-
-                                <a href="#">
-                                    <li data-aos="fade-left" data-aos-delay="600"><span>Science</span><span>(2)</span></li>
-                                </a>
-                            </ul>
-                        </div>
-
-                        <!-- Popular posts -->
-                        <div class="blog-post-aside">
-                            <h2>Popular Posts</h2>
-                            <div class="blog-aside-img-wrap" data-aos="flip-up" data-aos-delay="200">
-                                    <div class="post-aside-img">
-                                        <img src="./assets/popular-post/m-blog-1.jpg" alt="">
-                                    </div>
-                                    <div class="post-aside-date">
-                                        <span><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span>
-                                        <span><i class="far fa-calendar-alt"></i>&nbsp;January, 20 2019</span>
-                                        <span>&nbsp;&nbsp;2 Comments</span>
-                                    </div>  
-                            </div>
-                            <div class="blog-aside-post-title">
-                                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Earum in illo veritatis accusamus?</h2>
-                            </div>
-                        </div>
-
-                        <div class="blog-post-aside">
-                            <div class="blog-aside-img-wrap" data-aos="flip-up" data-aos-delay="200">
-                                    <div class="post-aside-img">
-                                        <img src="./assets/popular-post/m-blog-2.jpg" alt="">
-                                    </div>
-                                    <div class="post-aside-date">
-                                        <span><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span>
-                                        <span><i class="far fa-calendar-alt"></i>&nbsp;January, 1 2019</span>
-                                        <span>&nbsp;&nbsp;10 Comments</span>
-                                    </div>  
-                            </div>
-                            <div class="blog-aside-post-title">
-                                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Earum in illo veritatis accusamus?</h2>
-                            </div>
-                        </div>
-
-                        <div class="blog-post-aside">
-                            <div class="blog-aside-img-wrap" data-aos="flip-up" data-aos-delay="200">
-                                    <div class="post-aside-img">
-                                        <img src="./assets/popular-post/m-blog-3.jpg" alt="">
-                                    </div>
-                                    <div class="post-aside-date">
-                                        <span><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span>
-                                        <span><i class="far fa-calendar-alt"></i>&nbsp;January, 2 2019</span>
-                                        <span>&nbsp;&nbsp;2 Comments</span>
-                                    </div>  
-                            </div>
-                            <div class="blog-aside-post-title">
-                                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Earum in illo veritatis accusamus?</h2>
-                            </div>
-                        </div>
-
-                        <div class="blog-post-aside">
-                            <div class="blog-aside-img-wrap" data-aos="flip-up" data-aos-delay="200">
-                                    <div class="post-aside-img">
-                                        <img src="./assets/popular-post/m-blog-4.jpg" alt="">
-                                    </div>
-                                    <div class="post-aside-date">
-                                        <span><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span>
-                                        <span><i class="far fa-calendar-alt"></i>&nbsp;January, 4 2019</span>
-                                        <span>&nbsp;&nbsp;8 Comments</span>
-                                    </div>  
-                            </div>
-                            <div class="blog-aside-post-title">
-                                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Earum in illo veritatis accusamus?</h2>
-                            </div>
-                        </div>
-
-                        <div class="blog-post-aside">
-                            <div class="blog-aside-img-wrap" data-aos="flip-up" data-aos-delay="200">
-                                    <div class="post-aside-img">
-                                        <img src="./assets/popular-post/m-blog-5.jpg" alt="">
-                                    </div>
-                                    <div class="post-aside-date">
-                                        <span><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span>
-                                        <span><i class="far fa-calendar-alt"></i>&nbsp;January, 6 2019</span>
-                                        <span>&nbsp;&nbsp;6 Comments</span>
-                                    </div>  
-                            </div>
-                            <div class="blog-aside-post-title">
-                                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Earum in illo veritatis accusamus?</h2>
-                            </div>
-                        </div>
-
-                        <!-- Newsletter -->
-                        <div class="newsletter">
-                            <div class="newsletter-wrap">
-                                <h2>Newsletter</h2>
-                                <form class="newsletter-form">
-                                    <input type="email" name="email" id="email" placeholder="Email">
-                                    <button class="btn newsletter-btn">Subscribe</button>
-                                </form>
-                            </div>
-                        </div>
-
-                        <!-- Populat tags -->
-                        <section class="populat-tags-section">
-                            <h2>Popular Tags</h2>
-                            <div class="popular-tags">
-                                <a href="#" data-aos="fade-up" data-aos-delay="200">Lifestyle</a>
-                                <a href="#" data-aos="fade-up" data-aos-delay="300">Science</a>
-                                <a href="#" data-aos="fade-up" data-aos-delay="400">Technology</a>
-                                <a href="#" data-aos="fade-up" data-aos-delay="500">Books</a>
-                                <a href="#" data-aos="fade-up" data-aos-delay="600">Design</a>
-                                <a href="#" data-aos="fade-up" data-aos-delay="700">Health</a>
-                                <a href="#" data-aos="fade-up" data-aos-delay="800">Business</a>
-                            </div>
-                        </section>
-                    </aside>
-                    <!-----x------ Post sidebar section -----x------>
+              <div
+                class="blog-content"
+                data-aos="fade-left"
+                data-aos-delay="200"
+              >
+                <img src="./assets/Blog-post/post-3.jpg" alt="Post-3" />
+                <div class="blog-title">
+                  <h3>11 Cool Teen Birthday Party Ideas and Games</h3>
+                  <button class="btn btn-blog">Read More</button>
+                  <span>5 Minutes Read</span>
                 </div>
+              </div>
+
+              <div class="blog-content">
+                <img src="./assets/Blog-post/post-5.png" alt="Post-4" />
+                <div class="blog-title">
+                  <h3>Grizzly bear runs towards hikers in Glacier.</h3>
+                  <button class="btn btn-blog">Read More</button>
+                  <span>4 Minutes Read</span>
+                </div>
+              </div>
+            </div>
+            <div class="owl-navigation">
+              <span class="owl-nav-prev"
+                ><i class="fas fa-long-arrow-alt-left"></i
+              ></span>
+              <span class="owl-nav-next"
+                ><i class="fas fa-long-arrow-alt-right"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------x----------- Blog carousel section -------x------->
+
+      <!--------------- Blog post section ---------------->
+      <section class="blog-post-wrap">
+        <div class="post-container">
+          <!----------- Main blog post content ------------->
+          <div class="blog-post-content-wrap">
+            <div class="blog-post-content">
+              <div
+                class="blog-img-wrap"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
+                <div class="post-img">
+                  <img src="./assets/Blog-post/blog1.png" alt="" />
+                </div>
+                <div class="post-date">
+                  <span
+                    ><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span
+                  >
+                  <span
+                    ><i class="far fa-calendar-alt"></i>&nbsp;January, 20
+                    2019</span
+                  >
+                  <span>&nbsp;&nbsp;2 Comments</span>
+                </div>
+              </div>
+              <div class="blog-post-title">
+                <h2>
+                  Wildlife Photographer of the Year 2020 -- first pictures
+                  released
+                </h2>
+                <p>
+                  Organizers on Tuesday published several of the 68 highly
+                  commended images selected by judges to form of an exhibition,
+                  which opens October 16 at the Natural History Museum in
+                  London.
+                </p>
+                <button class="btn blog-btn">
+                  Read more <span><i class="fas fa-arrow-right"></i></span>
+                </button>
+              </div>
+              <hr />
+            </div>
+
+            <div class="blog-post-content">
+              <div
+                class="blog-img-wrap"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
+                <div class="post-img">
+                  <img src="./assets/Blog-post/blog2.png" alt="" />
+                </div>
+                <div class="post-date">
+                  <span
+                    ><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span
+                  >
+                  <span
+                    ><i class="far fa-calendar-alt"></i>&nbsp;January, 22
+                    2019</span
+                  >
+                  <span>&nbsp;&nbsp;3 Comments</span>
+                </div>
+              </div>
+              <div class="blog-post-title">
+                <h2>
+                  New Guinea’s mysterious singing dogs found again in the wild
+                </h2>
+                <p>
+                  The haunting, plaintive wail of New Guinean singing dogs once
+                  resounded throughout the island’s lush mountains and valleys
+                </p>
+                <button class="btn blog-btn">
+                  Read more <span><i class="fas fa-arrow-right"></i></span>
+                </button>
+              </div>
+              <hr />
+            </div>
+
+            <div class="blog-post-content">
+              <div
+                class="blog-img-wrap"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
+                <div class="post-img">
+                  <img src="./assets/Blog-post/blog3.png" alt="" />
+                </div>
+                <div class="post-date">
+                  <span
+                    ><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span
+                  >
+                  <span
+                    ><i class="far fa-calendar-alt"></i>&nbsp;January, 24
+                    2019</span
+                  >
+                  <span>&nbsp;&nbsp;5 Comments</span>
+                </div>
+              </div>
+              <div class="blog-post-title">
+                <h2>
+                  Biker Trash Network is the worlds largest Outlaw Biker News
+                  site on the internet.
+                </h2>
+                <p>
+                  Grabbed straight from the headlines motorcycle madhouse biker
+                  news gives you both sides of a story and most important a
+                  debate platform to discuss the issues ...
+                </p>
+                <button class="btn blog-btn">
+                  Read more <span><i class="fas fa-arrow-right"></i></span>
+                </button>
+              </div>
+              <hr />
+            </div>
+
+            <div class="blog-post-content">
+              <div
+                class="blog-img-wrap"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
+                <div class="post-img">
+                  <img src="./assets/Blog-post/blog4.png" alt="" />
+                </div>
+                <div class="post-date">
+                  <span
+                    ><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span
+                  >
+                  <span
+                    ><i class="far fa-calendar-alt"></i>&nbsp;January, 26
+                    2019</span
+                  >
+                  <span>&nbsp;&nbsp;1 Comments</span>
+                </div>
+              </div>
+              <div class="blog-post-title">
+                <h2>
+                  Whatever floats your boat? Scientists defy gravity with
+                  levitating liquid
+                </h2>
+                <p>
+                  Scientists have turned the world upside down with a curious
+                  quirk of physics that allowed them to float toy boats the
+                  wrong way up beneath a levitating body of liquid.
+                </p>
+                <button class="btn blog-btn">
+                  Read more <span><i class="fas fa-arrow-right"></i></span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Pagintation section -->
+            <section class="pagination-section">
+              <div class="pagination">
+                <i class="fas fa-angle-left"></i>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <i class="fas fa-angle-right"></i>
+              </div>
             </section>
-            <!-------x-------- Blog post section --------x-------->
-        </main>
+          </div>
+          <!-----x------ Main blog post content ----x--------->
+
+          <!----------- Post sidebar section ----------->
+          <aside class="post-sidebar">
+            <!-- Category -->
+            <div class="post-category">
+              <h2>Category</h2>
+              <ul>
+                <a href="#">
+                  <li data-aos="fade-left" data-aos-delay="200">
+                    <span>Technology</span><span>(5)</span>
+                  </li>
+                </a>
+
+                <a href="#">
+                  <li data-aos="fade-left" data-aos-delay="300">
+                    <span>Business</span><span>(3)</span>
+                  </li>
+                </a>
+
+                <a href="#">
+                  <li data-aos="fade-left" data-aos-delay="400">
+                    <span>Lifestyle</span><span>(2)</span>
+                  </li>
+                </a>
+
+                <a href="#">
+                  <li data-aos="fade-left" data-aos-delay="500">
+                    <span>Books</span><span>(6)</span>
+                  </li>
+                </a>
+
+                <a href="#">
+                  <li data-aos="fade-left" data-aos-delay="600">
+                    <span>Science</span><span>(2)</span>
+                  </li>
+                </a>
+              </ul>
+            </div>
+
+            <!-- Popular posts -->
+            <div class="blog-post-aside">
+              <h2>Popular Posts</h2>
+              <div
+                class="blog-aside-img-wrap"
+                data-aos="flip-up"
+                data-aos-delay="200"
+              >
+                <div class="post-aside-img">
+                  <img src="./assets/popular-post/m-blog-1.jpg" alt="" />
+                </div>
+                <div class="post-aside-date">
+                  <span
+                    ><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span
+                  >
+                  <span
+                    ><i class="far fa-calendar-alt"></i>&nbsp;January, 20
+                    2019</span
+                  >
+                  <span>&nbsp;&nbsp;2 Comments</span>
+                </div>
+              </div>
+              <div class="blog-aside-post-title">
+                <h2>
+                  Great Black Coffee is the Subject for Blackology Coffee in
+                  Raleigh
+                </h2>
+              </div>
+            </div>
+
+            <div class="blog-post-aside">
+              <div
+                class="blog-aside-img-wrap"
+                data-aos="flip-up"
+                data-aos-delay="200"
+              >
+                <div class="post-aside-img">
+                  <img src="./assets/popular-post/m-blog-2.jpg" alt="" />
+                </div>
+                <div class="post-aside-date">
+                  <span
+                    ><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span
+                  >
+                  <span
+                    ><i class="far fa-calendar-alt"></i>&nbsp;January, 1
+                    2019</span
+                  >
+                  <span>&nbsp;&nbsp;10 Comments</span>
+                </div>
+              </div>
+              <div class="blog-aside-post-title">
+                <h2>
+                  The search engine boss who wants to help us all plant trees
+                </h2>
+              </div>
+            </div>
+
+            <div class="blog-post-aside">
+              <div
+                class="blog-aside-img-wrap"
+                data-aos="flip-up"
+                data-aos-delay="200"
+              >
+                <div class="post-aside-img">
+                  <img src="./assets/popular-post/m-blog-3.jpg" alt="" />
+                </div>
+                <div class="post-aside-date">
+                  <span
+                    ><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span
+                  >
+                  <span
+                    ><i class="far fa-calendar-alt"></i>&nbsp;January, 2
+                    2019</span
+                  >
+                  <span>&nbsp;&nbsp;2 Comments</span>
+                </div>
+              </div>
+              <div class="blog-aside-post-title">
+                <h2>Coronavirus: What are the rules on weddings?</h2>
+              </div>
+            </div>
+
+            <div class="blog-post-aside">
+              <div
+                class="blog-aside-img-wrap"
+                data-aos="flip-up"
+                data-aos-delay="200"
+              >
+                <div class="post-aside-img">
+                  <img src="./assets/popular-post/m-blog-4.jpg" alt="" />
+                </div>
+                <div class="post-aside-date">
+                  <span
+                    ><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span
+                  >
+                  <span
+                    ><i class="far fa-calendar-alt"></i>&nbsp;January, 4
+                    2019</span
+                  >
+                  <span>&nbsp;&nbsp;8 Comments</span>
+                </div>
+              </div>
+              <div class="blog-aside-post-title">
+                <h2>The 16 Best Bike Shorts to Wear All Summer Long</h2>
+              </div>
+            </div>
+
+            <div class="blog-post-aside">
+              <div
+                class="blog-aside-img-wrap"
+                data-aos="flip-up"
+                data-aos-delay="200"
+              >
+                <div class="post-aside-img">
+                  <img src="./assets/popular-post/m-blog-5.jpg" alt="" />
+                </div>
+                <div class="post-aside-date">
+                  <span
+                    ><i class="fas fa-user"></i>&nbsp;Admin&nbsp;&nbsp;</span
+                  >
+                  <span
+                    ><i class="far fa-calendar-alt"></i>&nbsp;January, 6
+                    2019</span
+                  >
+                  <span>&nbsp;&nbsp;6 Comments</span>
+                </div>
+              </div>
+              <div class="blog-aside-post-title">
+                <h2>
+                  Hundreds to isolate after Banham Poultry factory Covid-19
+                  outbreak
+                </h2>
+              </div>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="newsletter">
+              <div class="newsletter-wrap">
+                <h2>Newsletter</h2>
+                <form class="newsletter-form">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                  />
+                  <button class="btn newsletter-btn">Subscribe</button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Populat tags -->
+            <section class="populat-tags-section">
+              <h2>Popular Tags</h2>
+              <div class="popular-tags">
+                <a href="#" data-aos="fade-up" data-aos-delay="200"
+                  >Lifestyle</a
+                >
+                <a href="#" data-aos="fade-up" data-aos-delay="300">Science</a>
+                <a href="#" data-aos="fade-up" data-aos-delay="400"
+                  >Technology</a
+                >
+                <a href="#" data-aos="fade-up" data-aos-delay="500">Books</a>
+                <a href="#" data-aos="fade-up" data-aos-delay="600">Design</a>
+                <a href="#" data-aos="fade-up" data-aos-delay="700">Health</a>
+                <a href="#" data-aos="fade-up" data-aos-delay="800">Business</a>
+              </div>
+            </section>
+          </aside>
+          <!-----x------ Post sidebar section -----x------>
+        </div>
+      </section>
+      <!-------x-------- Blog post section --------x-------->
+    </main>
     <!-----x------ Main section -----x----->
 
     <!-------------- Footer section --------------->
-        <footer class="footer-section">
-            <div class="footer-container">
-                <div class="about-us">
-                    <h2>About Us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Laborum et expedita dolorem eaque quidem assumenda deserunt error! Eos, quod nesciunt.</p>
-                </div>
-                <div class="newsletter-wrapper">
-                    <h2>Newsletter</h2>
-                    <p>Stay update with our latest.</p>
-                    <form action="" class="form-wrap">
-                        <input type="email" placeholder="Email">
-                        <span><i class="fas fa-angle-right"></i></span>
-                    </form>
-                </div>
-                <div class="instagram">
-                    <h2>Instagram</h2>
-                    <div class="instagram-img">
-                        <img src="./assets/instagram/thumb-card3.png" alt="">
-                        <img src="./assets/instagram/thumb-card4.png" alt="">
-                        <img src="./assets/instagram/thumb-card5.png" alt="">
-                        <img src="./assets/instagram/thumb-card6.png" alt="">
-                        <img src="./assets/instagram/thumb-card7.png" alt="">
-                        <img src="./assets/instagram/thumb-card8.png" alt="">
-                    </div>
-                </div>
-                <div class="follow">
-                    <h2>Follow Us</h2>
-                    <p>Let us be social.</p>
-                    <div class="footer-social">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-snapchat"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="scroll-up">
-                <i class="fas fa-arrow-circle-up fa-2x"></i>
-            </div>
-            <div class="copyright">
-                <p>&copy; 2020 Copyright & created by Chan Myae Oo</p>
-            </div>
-        </footer>
+    <footer class="footer-section">
+      <div class="footer-container">
+        <div class="about-us">
+          <h2>About Us</h2>
+          <p>
+            The purpose of blogger site is to convey, as efficiently as
+            possible, current information, or "news", to a particular audience
+          </p>
+        </div>
+        <div class="newsletter-wrapper">
+          <h2>Newsletter</h2>
+          <p>Stay update with our latest.</p>
+          <form action="" class="form-wrap">
+            <input type="email" placeholder="Email" />
+            <span><i class="fas fa-angle-right"></i></span>
+          </form>
+        </div>
+        <div class="instagram">
+          <h2>Instagram</h2>
+          <div class="instagram-img">
+            <img src="./assets/instagram/thumb-card3.png" alt="" />
+            <img src="./assets/instagram/thumb-card4.png" alt="" />
+            <img src="./assets/instagram/thumb-card5.png" alt="" />
+            <img src="./assets/instagram/thumb-card6.png" alt="" />
+            <img src="./assets/instagram/thumb-card7.png" alt="" />
+            <img src="./assets/instagram/thumb-card8.png" alt="" />
+          </div>
+        </div>
+        <div class="follow">
+          <h2>Follow Us</h2>
+          <p>Let us be social.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-snapchat"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-up">
+        <i class="fas fa-arrow-circle-up fa-2x"></i>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2020 Copyright, Blogger Site</p>
+      </div>
+    </footer>
 
-        
     <!------x-------- Footer section --------x------->
 
     <!-- jquery -->
@@ -419,5 +571,5 @@
     <script src="./js/aos.js"></script>
     <!-- custom javascript -->
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>
